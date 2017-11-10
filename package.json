@@ -1,0 +1,40 @@
+{
+  "name": "pgc-mblob",
+  "version": "1.0.0",
+  "description": "a messaging application used for instant messaging and file sharing for our department/office at the Provincial Government of Cagayan.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterjulius/pgc-mblob.git"
+  },
+  "keywords": [
+    "PGC",
+    "Cagayan",
+    "mblob",
+    "blob"
+  ],
+  "author": "Julius Palcong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masterjulius/pgc-mblob/issues"
+  },
+  "homepage": "https://github.com/masterjulius/pgc-mblob#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.1",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0"
+  }
+}
